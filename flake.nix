@@ -15,11 +15,15 @@
           buildInputs = [
             pkgs.cmake
             pkgs.rustc
-	    pkgs.libpq
-	    pkgs.openssl
-	    pkgs.pkg-config
-	    pkgs.protobuf
+            pkgs.libpq
+            pkgs.openssl
+            pkgs.pkg-config
+            pkgs.protobuf
             pkgs.rust-jemalloc-sys
+            pkgs.libgcc
+            pkgs.postgresql
+            pkgs.unzip
+            pkgs.wget
           ];
         };
       }
